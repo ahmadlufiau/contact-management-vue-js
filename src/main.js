@@ -6,6 +6,8 @@ import UserRegister from './components/User/UserRegister.vue'
 import UserLogin from './components/User/userLogin.vue'
 import DashboardLayout from './components/DashboardLayout.vue'
 import ContactList from './components/Contact/ContactList.vue'
+import UserProfile from './components/User/UserProfile.vue'
+import UserLogout from './components/User/UserLogout.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -31,6 +33,14 @@ const router = createRouter({
           path: "contacts",
           component: ContactList,
         },
+        {
+          path: "users/profile",
+          component: UserProfile,
+        },
+        {
+          path: "users/logout",
+          component: UserLogout
+        }
       ],
     }
   ]
