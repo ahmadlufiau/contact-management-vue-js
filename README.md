@@ -1,5 +1,21 @@
-# Vue 3 + Vite
+# Studi Kasus Vue.js - Contact Management
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Learning from Programmer Zaman Now. Link [youtube video](https://www.youtube.com/watch?v=ymqHMOD_NaE&t=5829s)
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Feature
+- Authentication (Login and Register)
+- Contact Management (Create, Read, Update, Delete)
+- Address Management (Create, Read, Update, Delete)
+
+## Library
+- [Vue Router v4](https://www.npmjs.com/package/vue-router)
+- [Sweetalert2](https://www.npmjs.com/package/sweetalert2)
+- [VueUse](https://www.npmjs.com/package/@vueuse/core)
+
+## How to run
+- Clone this repo
+- npm install
+- npm run dev
+
+## Screenshot
+![External Access](screenshot/page.png)
